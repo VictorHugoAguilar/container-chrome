@@ -2,7 +2,7 @@ const form = document.forms["login-form"];
 const button = document.querySelector("#button");
 const output = document.querySelector("#output");
 const iframe = document.querySelector("#microfrontend");
-const iframeOrigin = "http://localhost:8003";
+const iframeOrigin = "https://qa-bbva-cells-files.s3.amazonaws.com";
 
 const USERS = [
   {
@@ -112,7 +112,7 @@ window.addEventListener("message", ({ origin, data }) => {
   switch (data.event) {
     case "DO_REDIRECT_SENDA":
       window.location.href =
-        "http://localhost:8004/index.html#!/bbva-btge-dashboard-solution";
+        "https://bbva-cells-files.s3.amazonaws.com/cells/apps/mx_mlcj_app-id-446289_dsg/senda-mx/feature/login_netcash_integration_270/cellsapp/test/novulcanize/index.html#!/bbva-btge-dashboard-solution";
       break;
 
     case "RESIZE_0":
