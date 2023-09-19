@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Legacy App - Sample</title>
+
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet"/>
+  <!-- MDB -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.3.0/mdb.min.css" rel="stylesheet"/>
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+
+    <div class="login-card-form">
+
+      <h2 class="login-title text-center mb-5">Login Legacy</h2>
+
+      <form name="login-form">
+
+        <div class="form-outline mb-4">
+          <input type="text" id="user" class="form-control" />
+          <label class="form-label" for="user">Usuario</label>
+        </div>
+
+        <div class="form-outline mb-4">
+          <input type="text" id="referencia" class="form-control"/>
+          <label class="form-label" for="referencia">Referencia</label>
+        </div>
+
+        <div class="form-outline mb-4">
+          <input type="password" id="password" class="form-control"/>
+          <label class="form-label" for="password">Password</label>
+        </div>
+
+        <button class="btn btn-primary btn-block fa-lg gradient-custom-2 mb-3" id="button">Entrar</button>
+
+      </form>
+
+    </div>
+
+    <footer class="login-footer success-border">
+      <p class="footer-description">🔱 Made with L♥️VE by <b>Fer-God</b> 🔱</p>
+    </footer>
+
+  </div>
+
+  <div class="iframe-container">
+    <iframe 
+      id="microfrontend" 
+      class="small"
+      title="bbva-senda-eweb-mx-coexistence-login" 
+      src="http://localhost:8003">
+    </iframe>
+  </div> 
+
+  <!-- MDB -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.3.0/mdb.min.js"></script>
+  <script src="./main.js"></script> 
+</body>
+</html>
